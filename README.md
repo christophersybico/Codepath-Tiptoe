@@ -12,7 +12,7 @@ Assignment for codepath
 5. Added background image
 
 ### Recording:
-![Alt text](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Tiptoe.gif "Tipteo Demo")
+![Alt text](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Tiptoe%20Demo.gif "Tipteo Demo")
 
 ### Sketch:
 ![Alt text](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Tiptoe%20Sketch.jpeg "Tiptoe Sketch")
