@@ -14,6 +14,7 @@
 		0B72C13E1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B72C13C1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard */; };
 		0B72C1491B7EFCFF00B6BAD6 /* TiptoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B72C1481B7EFCFF00B6BAD6 /* TiptoeTests.swift */; };
 		0B72C1541B7EFCFF00B6BAD6 /* TiptoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B72C1531B7EFCFF00B6BAD6 /* TiptoeUITests.swift */; };
+		A745E0331B95F3890037249E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A745E0321B95F3890037249E /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0B72C14F1B7EFCFF00B6BAD6 /* TiptoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiptoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B72C1531B7EFCFF00B6BAD6 /* TiptoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiptoeUITests.swift; sourceTree = "<group>"; };
 		0B72C1551B7EFCFF00B6BAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A745E0321B95F3890037249E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0B72C13A1B7EFCFF00B6BAD6 /* Assets.xcassets */,
 				0B72C13C1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard */,
 				0B72C13F1B7EFCFF00B6BAD6 /* Info.plist */,
+				A745E0321B95F3890037249E /* SettingsViewController.swift */,
 			);
 			path = Tiptoe;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				0B72C1361B7EFCFF00B6BAD6 /* ViewController.swift in Sources */,
 				0B72C1341B7EFCFF00B6BAD6 /* AppDelegate.swift in Sources */,
+				A745E0331B95F3890037249E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +487,7 @@
 				0B72C15A1B7EFCFF00B6BAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B72C15B1B7EFCFF00B6BAD6 /* Build configuration list for PBXNativeTarget "TiptoeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				0B72C15D1B7EFCFF00B6BAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B72C15E1B7EFCFF00B6BAD6 /* Build configuration list for PBXNativeTarget "TiptoeUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				0B72C1601B7EFCFF00B6BAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
