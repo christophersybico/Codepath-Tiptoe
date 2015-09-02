@@ -21,7 +21,7 @@ Assignment for codepath
 # User Stories
 
 ### Bill Input
-Story:
+Story:  
 Ability to input the bill amount.
 
 Acceptance:  
@@ -29,40 +29,43 @@ Acceptance:
 ✔ Numpad should be up by default  
 ✘ Textfield should be in currency format
 
-### TIP Input
-Story:
+### Tip Input
+Story:  
 Ability to change the tip percentage. Rounding off the tip is preffered (this is my personal way of writing a tip because it’s easy to copy & write it on the bill)
 
-Acceptance:
-✔︎ Tip choices: 18%, 20%, 22%
-✔︎ Tip value should be updated when tip is changed
-✘ By default, tip value is rounded to nearest decimal
+Acceptance:  
+✔︎ Tip choices: 18%, 20%, 22%  
+✔︎ Tip value should be updated when tip is changed  
+✘ By default, tip value is rounded to nearest decimal  
 ✘ iOS Picker View is the preffered input method for choosing tip percentage
 
 ### Split the bill with tip included
-Story:
-Ability to split the tip by 2 or more people
+Story:  
+Ability to split the tip by 2 or more people  
 
-Acceptance:
+Acceptance:  
 ✘ By dragging the card from right to left, it should show you a different card with the bill split by 2 or 3
 
 ### Share
-Story:
+Story:  
 Ability to share “this” to someone using text or email
 
-Acceptance:
+Acceptance:  
 ✘ By tapping on the share icon, it will give you two choices; email and text
 
 ### Settings
-Story:
+Story:  
 Ability to turn on/off the rounding off of tip.
 
-Acceptance:
-✔︎ By tapping on the settings icon, it will bring up a modal. The modal screen consists of: a switch which can turn on/off tip round-off, and a done button.
-✘ If switch is on, it should round off the tip
+Acceptance:  
+✔︎ By tapping on the settings icon, it will bring up a modal. The modal screen consists of: a switch which can turn on/off tip round-off, and a done button.  
+✘ If switch is on, it should round off the tip  
 ✘ If switch is off, it should NOT round off the tip
 
 ### Custom Keyboard
+Story:  
 Nicer looking numpad
 
 ### Custom Picker
+Story:  
+Nicer looking tip picker
