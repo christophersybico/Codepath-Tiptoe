@@ -25,9 +25,9 @@ Story:
 Ability to input the bill amount.
 
 Acceptance:
-✔︎ Bill row should be focused on load 
-✔︎ Numpad should be up by default 
-✘ Textfield should be in currency format
+ ✔︎ Bill row should be focused on load 
+ ✔ Numpad should be up by default 
+ ✘ Textfield should be in currency format
 
 ### TIP Input
 Story:
