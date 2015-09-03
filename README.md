@@ -14,7 +14,7 @@ Acceptance:
 ✘ Textfield should be in currency format  
 ✘ Input should be in ATM style
 
-Demo:
+Demo:  
 ![Bill Input](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Demos/tiptoeDemo_billInput_v2.gif "Bill Input")
 
 ### Tip Input
@@ -27,7 +27,7 @@ Acceptance:
 ✔ iOS Picker View is the preffered input method for choosing tip percentage  
 ✘ By default, tip value is rounded to nearest decimal
 
-Demo:
+Demo:  
 ![Tip Input](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Demos/tiptoeDemo_tipInput_v2.gif "Tip Input")
 
 ### Split the bill with tip included
@@ -44,7 +44,7 @@ Ability to share the bill w/ tip to someone using text or email
 Acceptance:  
 ✘ By tapping on the share icon, it will give you two choices; email and text
 
-Demo:
+Demo:  
 ![Share](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Demos/tiptoeDemo_share_v1.gif "Share")
 
 Resource:
@@ -59,7 +59,7 @@ Acceptance:
 ✘ If switch is on, it should round off the tip  
 ✘ If switch is off, it should NOT round off the tip
 
-Demo:
+Demo:  
 ![Settings](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Demos/tiptoeDemo_settings_v1.gif "Settings")
 
 ### Custom Keyboard
@@ -71,6 +71,6 @@ Story:
 Nicer looking tip picker
 
 ### Log Hours
-Aug 16, 2015: 6 Hours
-Sep 2, 2015: 6 Hours
-Sep 3, 2015: 4 Hours
+Aug 16, 2015: 6 Hours  
+Sep 2, 2015: 6 Hours  
+Sep 3, 2015: 4 Hours  
