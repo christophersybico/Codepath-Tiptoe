@@ -1,22 +1,6 @@
 
 # Codepath-Tiptoe
-Assignment for codepath
-
-### How many hours did it take to complete?
-6-7 Hours - had to spend a little bit of time on the design
-
-### Optional stories:
-1. Change the colors and fonts of the views
-2. App Icon
-3. Added focus on bill textfield on load
-4. Hide status bar
-5. Added background image
-
-### Recording:
-![Alt text](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Tiptoe%20Demo.gif "Tipteo Demo")
-
-### Sketch:
-![Alt text](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Tiptoe%20Sketch.jpeg "Tiptoe Sketch")
+Assignment for codepath. Tiptoe is a tip calculator app.
 
 # User Stories
 
@@ -54,6 +38,11 @@ Ability to share the bill w/ tip to someone using text or email
 Acceptance:  
 ✘ By tapping on the share icon, it will give you two choices; email and text
 
+Updates:
+
+Resource:
+[ActivityViewController from The Code Lady](https://www.youtube.com/watch?v=91mL-eDl6x4)
+
 ### Settings
 Story:  
 Ability to turn on/off the rounding off of tip.
@@ -70,3 +59,8 @@ Nicer looking numpad
 ### Custom Picker
 Story:  
 Nicer looking tip picker
+
+### Log Hours
+Aug 16, 2015: 6 Hours
+Sep 2, 2015: 6 Hours
+Sep 3, 2015: 4 Hours

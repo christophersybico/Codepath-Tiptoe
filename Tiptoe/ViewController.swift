@@ -28,6 +28,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     
     var tipPercentages = [0.18, 0.20, 0.22]
     var selectedTip = 0.18
+    var billAmountText = ""
     
     
     override func viewDidLoad() {
@@ -67,6 +68,8 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         return true
     }
 
+    
+    
     @IBAction func onEditingChanged(sender: AnyObject) {
         
 //        let tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
@@ -86,6 +89,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         totalLabel.text = String(format: "$%.2f", total)
         
     }
+    
     
     @IBAction func tapOnBillField(sender: AnyObject) {
         appBgBillView.alpha = 1
@@ -115,6 +119,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         return String(format:"%.0f", tipPercentages[row]*100) + "%"
     }
     
+    
     // Let pickerView know what is selected?
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
 
@@ -130,6 +135,17 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         totalLabel.text = String(format: "$%.2f", total)
         
     };
+    
+    
+    @IBAction func didTapOnShare(sender: AnyObject) {
+        
+        // Set up share action sheet
+        let shareVC = UIActivityViewController(activityItems: [billAmountText], applicationActivities: nil)
+        
+        // Present or Show it
+        self.presentViewController(shareVC, animated: true, completion: nil)
+        
+    }
     
 }
 
