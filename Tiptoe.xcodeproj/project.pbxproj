@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0B72C1341B7EFCFF00B6BAD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B72C1331B7EFCFF00B6BAD6 /* AppDelegate.swift */; };
 		0B72C1361B7EFCFF00B6BAD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B72C1351B7EFCFF00B6BAD6 /* ViewController.swift */; };
-		0B72C1391B7EFCFF00B6BAD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B72C1371B7EFCFF00B6BAD6 /* Main.storyboard */; };
 		0B72C13B1B7EFCFF00B6BAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B72C13A1B7EFCFF00B6BAD6 /* Assets.xcassets */; };
 		0B72C13E1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B72C13C1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard */; };
 		0B72C1491B7EFCFF00B6BAD6 /* TiptoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B72C1481B7EFCFF00B6BAD6 /* TiptoeTests.swift */; };
 		0B72C1541B7EFCFF00B6BAD6 /* TiptoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B72C1531B7EFCFF00B6BAD6 /* TiptoeUITests.swift */; };
 		A745E0331B95F3890037249E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A745E0321B95F3890037249E /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A79D102E1B97BFA3008F6403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79D102D1B97BFA3008F6403 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		0B72C1301B7EFCFF00B6BAD6 /* Tiptoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiptoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B72C1331B7EFCFF00B6BAD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B72C1351B7EFCFF00B6BAD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B72C1381B7EFCFF00B6BAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B72C13A1B7EFCFF00B6BAD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B72C13D1B7EFCFF00B6BAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B72C13F1B7EFCFF00B6BAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		0B72C1531B7EFCFF00B6BAD6 /* TiptoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiptoeUITests.swift; sourceTree = "<group>"; };
 		0B72C1551B7EFCFF00B6BAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A745E0321B95F3890037249E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A79D102D1B97BFA3008F6403 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 		0B72C1321B7EFCFF00B6BAD6 /* Tiptoe */ = {
 			isa = PBXGroup;
 			children = (
+				A79D102D1B97BFA3008F6403 /* Main.storyboard */,
 				0B72C1331B7EFCFF00B6BAD6 /* AppDelegate.swift */,
 				0B72C1351B7EFCFF00B6BAD6 /* ViewController.swift */,
-				0B72C1371B7EFCFF00B6BAD6 /* Main.storyboard */,
 				0B72C13A1B7EFCFF00B6BAD6 /* Assets.xcassets */,
 				0B72C13C1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard */,
 				0B72C13F1B7EFCFF00B6BAD6 /* Info.plist */,
@@ -231,9 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79D102E1B97BFA3008F6403 /* Main.storyboard in Resources */,
 				0B72C13E1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard in Resources */,
 				0B72C13B1B7EFCFF00B6BAD6 /* Assets.xcassets in Resources */,
-				0B72C1391B7EFCFF00B6BAD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B72C1371B7EFCFF00B6BAD6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B72C1381B7EFCFF00B6BAD6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0B72C13C1B7EFCFF00B6BAD6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
