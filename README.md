@@ -70,6 +70,10 @@ Nicer looking numpad
 Story:  
 Nicer looking tip picker
 
+### Designs
+![alt text](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Design/tiptoeDesign_bill.png)  
+![alt text](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Design/tiptoeSketchConcept.jpeg)
+
 ### Log Hours
 Aug 16, 2015: 6 Hours  
 Sep 2, 2015: 6 Hours  
