@@ -27,7 +27,7 @@ Ability to input the bill amount.
 Acceptance:  
 ✔︎ Bill row should be focused on load  
 ✔ Numpad should be up by default  
-✘ Textfield should be in currency format
+✘ Textfield should be in currency format  
 ✘ Input should be in ATM style
 
 ### Tip Input
@@ -37,8 +37,8 @@ Ability to change the tip percentage. Rounding off the tip is preffered (this is
 Acceptance:  
 ✔︎ Tip choices: 18%, 20%, 22%  
 ✔︎ Tip value should be updated when tip is changed  
-✔ iOS Picker View is the preffered input method for choosing tip percentage
-✘ By default, tip value is rounded to nearest decimal  
+✔ iOS Picker View is the preffered input method for choosing tip percentage  
+✘ By default, tip value is rounded to nearest decimal
 
 ### Split the bill with tip included
 Story:  
