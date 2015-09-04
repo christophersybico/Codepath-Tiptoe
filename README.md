@@ -1,6 +1,10 @@
 
 # Codepath-Tiptoe
+Description:  
 Assignment for codepath. Tiptoe is a tip calculator app.
+
+Preview:  
+![Preview](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Demos/tiptoeDemo_v2.gif "Preview")
 
 # User Stories
 
