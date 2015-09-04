@@ -31,6 +31,9 @@ Acceptance:
 ✔ iOS Picker View is the preffered input method for choosing tip percentage  
 ✘ By default, tip value is rounded to nearest decimal
 
+Resource:  
+<a href="https://www.youtube.com/watch?v=eR07HO-JuUw" target="_blank">Picker View Tutorial by The Code Lady</a>
+
 Demo:  
 ![Tip Input](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Demos/tiptoeDemo_tipInput_v2.gif "Tip Input")
 
@@ -51,8 +54,8 @@ Acceptance:
 Demo:  
 ![Share](https://github.com/christophersybico/Codepath-Tiptoe/blob/master/Demos/tiptoeDemo_share_v1.gif "Share")
 
-Resource:
-[ActivityViewController from The Code Lady](https://www.youtube.com/watch?v=91mL-eDl6x4)
+Resource:  
+<a href="https://www.youtube.com/watch?v=91mL-eDl6x4" target="_blank">Activity View Tutorial by The Code Lady</a>
 
 ### Settings
 Story:  
