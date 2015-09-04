@@ -20,11 +20,11 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     
     @IBOutlet weak var totalLabel: UILabel!
     
-    @IBOutlet weak var tipControl: UISegmentedControl!
-    
     @IBOutlet weak var appBgBillView: UIImageView!
     
     @IBOutlet weak var appBgTipView: UIImageView!
+    
+    @IBOutlet weak var tipPickerView: UIPickerView!
     
     var tipPercentages = [0.18, 0.20, 0.22]
     var selectedTip = 0.18
@@ -55,6 +55,7 @@ class ViewController: UIViewController, UIPickerViewDelegate {
         appBgBillView.alpha = 1
         appBgTipView.alpha = 0
         
+        tipPickerView.center.y = 700
     }
 
     override func didReceiveMemoryWarning() {
@@ -67,42 +68,39 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
-
     
     
     @IBAction func onEditingChanged(sender: AnyObject) {
-        
-//        let tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
-//        print(tipControl.selectedSegmentIndex)
-//        let tipPercentage = 0.18
         
         let billAmount = NSString(string: billField.text!).doubleValue
         let tip = billAmount * selectedTip
         let total = billAmount + tip
     
-
         tipLabel.text = "$\(tip)"
         totalLabel.text = "$\(total)"
-        
     
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
     }
     
-    
     @IBAction func tapOnBillField(sender: AnyObject) {
         appBgBillView.alpha = 1
         appBgTipView.alpha = 0
+        UIView.animateWithDuration(0.5, animations: {
+            self.tipPickerView.center.y = 700
+        })
     }
     
     func showTipPicker(){
         view.endEditing(true)
         appBgBillView.alpha = 0
         appBgTipView.alpha = 1
+        UIView.animateWithDuration(0.5, animations: {
+            self.tipPickerView.center.y = 500
+        })
     }
     
-    // Learned from The Code Lady www.youtube.com/watch?v=MdXmIViD17U
     
     // Let pickerView know how many column?
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int{
@@ -118,7 +116,6 @@ class ViewController: UIViewController, UIPickerViewDelegate {
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?{
         return String(format:"%.0f", tipPercentages[row]*100) + "%"
     }
-    
     
     // Let pickerView know what is selected?
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
